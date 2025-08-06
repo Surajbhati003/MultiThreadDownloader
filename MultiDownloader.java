@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 public class MultiDownloader {
     public static void main(String[] args) {
         Random rand = new Random();
-        String fileUrl = "http://speedtest.tele2.net/25MB.zip";
+        String fileUrl = "https://thumbs.dreamstime.com/b/spectacular-mountain-ranges-silhouettes-man-reaching-summit-enjoying-freedom-happy-winning-success-sunset-sunrise-standing-89912845.jpg";
 
         // --- SINGLE THREAD DOWNLOAD TEST ---
         String singleOutputPath = "./SingleDownload_" + rand.nextInt() + "/img1.jpg";
